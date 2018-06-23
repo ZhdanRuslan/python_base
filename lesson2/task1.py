@@ -12,6 +12,6 @@ def to_binary_converter(n):
     string=""
     for j in k[::-1]:
         string=string+str(j)
-    print('The binary num is %s' %(string))
+    print('The binary num is:' + string)
 
 to_binary_converter(n)

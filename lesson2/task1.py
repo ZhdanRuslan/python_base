@@ -4,9 +4,9 @@ n = int(input('Input decimal number: '))
 
 #common logic of convertation
 def to_binary_converter(n):
-    k=[]
-    while (n>0):
-        a=int(float(n%2))
+    k = []
+    while (n > 0):
+        a=int(float(n % 2))
         k.append(a)
         n=(n-a)/2
     k.append(0)

@@ -9,7 +9,6 @@ def to_binary_converter(n):
         a=int(float(n % 2))
         k.append(a)
         n=(n-a)/2
-    k.append(0)
     string=""
     for j in k[::-1]:
         string=string+str(j)

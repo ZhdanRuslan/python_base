@@ -1,8 +1,11 @@
-width = int(input("Input width: "))
-height = int(input("Input height: "))
-simbol = input("Input simbol: ")
+try:
+    width = int(input("Input width: "))
+    height = int(input("Input height: "))
+    simbol = input("Input simbol: ")
+except Exception as e:
+    print("Something wrong " + e)
 
-for i in range(width):
-    for j in range (height):
+for i in range(height):
+    for j in range (width):
         print(simbol, end=' ')
     print()

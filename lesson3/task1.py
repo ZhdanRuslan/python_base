@@ -7,4 +7,4 @@ else:
     if baseName.lower() == inputName.lower():
         print("Names are equals")
     else:
-        print("Not equals")1
+        print("Not equals")

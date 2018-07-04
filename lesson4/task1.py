@@ -6,6 +6,8 @@ try:
             n += 1
         if n < 10:
             print("Name too short")
+        if any(map(str.isdigit, name)):
+            print("Name have some digits")
     print("Everething OK")
 
 except Exception as e:

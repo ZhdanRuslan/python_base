@@ -1,26 +1,10 @@
-import math
 
-width = int(input("Input width: "))
-height = int(input("Input height: "))
-simbol = input("Input simbol: ")
+try:
+    n1 = int(input("Input a: "))
+    n2 = int(input("Input b: "))
 
-count = 0
-
-mid = int(width/2)
-leftSide = int(width/2-1)
-rightSide = int(width/2+1)
-
-for i in range(height):
-    
-    
-    for j in range (leftSide):
-        print(" ", end=" ")
-    for k in range (mid):
-        print(simbol, end=" ")
-    for q in range (rightSide):
-        print(" ", end=" ")
-    
-    count += 1
-    rightSide -= 1
-    leftSide -=1 
-    print()
+    sum = (n2*(n2+1))/2-((n1-1)*((n1-1)+1))/2
+except Exception as e:
+    print("Erreor!" + e)
+else:
+    print(sum)

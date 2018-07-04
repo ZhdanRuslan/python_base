@@ -4,6 +4,6 @@ try:
 
     sum = (n2*(n2+1))/2-((n1-1)*((n1-1)+1))/2
 except Exception as e:
-    print("Erreor!" + e)
+    print("Error!" + e)
 else:
     print(sum)

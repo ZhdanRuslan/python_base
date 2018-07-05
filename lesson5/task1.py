@@ -1,3 +1,5 @@
+import math
+
 try:
     a = float(input("Input a: "))
     b = float(input("Input b: "))
@@ -9,7 +11,6 @@ else:
         def pow_side(x):
             return x*x
 
-        return pow_side(a) + pow_side(b)
+        return math.sqrt(pow_side(a) + pow_side(b))
     
-
 print(outer_function(a,b))

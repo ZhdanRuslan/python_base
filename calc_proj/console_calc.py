@@ -18,5 +18,3 @@ def switch_operation(arg):
 
 
 print(switch_operation(action_var))
-
-# print(a_var, b_var)

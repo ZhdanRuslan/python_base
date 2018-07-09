@@ -10,5 +10,5 @@ def cust_expression(n):
 #main loop
 i = -5
 while i <= 5:
-    print("i:\t {0:>} \t first func:\t {1:>}\t second func:\t {2:>}".format(i, square_circle(i), cust_expression(i), "<"))
+    print("i:\t {0:>} \t first func:\t {1:>}\t second func:\t {2:>}".format(i, square_circle(i), cust_expression(i)))
     i += 0.5

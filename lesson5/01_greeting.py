@@ -10,7 +10,3 @@ else:
     print(say_hello())
     #invocation with params
     print(say_hello(input_name))
-
-
-
- 

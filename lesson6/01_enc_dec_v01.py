@@ -1,15 +1,19 @@
 def encrypt(in_a, in_b):
-    if type(in_a) == int:
-        print("Param A is ok")
-    if str(in_b).isalpha():
-        print("Param B is ok")
+    print("in_a", in_a)
+    print("in_b", in_b)
+    # if type(in_a) == int:
+    #     print("Param A is ok")
+    # if str(in_b).isalpha():
+    #     print("Param B is ok")
     result = list()
     for elem in in_b:
         symbol = ord(elem) 
         result.append(symbol ^ in_a)
-    print(result)
+    # print(result)
     result.append(in_a)
-    print(result)
+    # print(result)
+    print(chr(68))
+    print(chr(77))
     return ','.join(str(x) for x in result)
 
 def decrypt(a):
@@ -22,7 +26,8 @@ def decrypt(a):
     for elem in result:
         z = int(elem) ^ int(key)
         result_str += str(chr(z))
-    print(result_str)
+    return result_str
 
 
-decrypt(encrypt(44, "haha"))
+print(encrypt(44, "haha"))
+print(decrypt(encrypt(456, "haha")))

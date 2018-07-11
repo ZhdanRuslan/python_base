@@ -1,5 +1,3 @@
-import base64
-
 def encrypt(in_a, in_b):
     if type(in_a) == int:
         print("Param A is ok")

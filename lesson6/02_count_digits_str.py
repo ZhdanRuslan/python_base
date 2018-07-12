@@ -1,5 +1,5 @@
 def inserting_ind_into_str(input_string):
-    if not input_string:
+    if not input_string or type(input_string) != str:
         raise Exception
     result = ""
     for index in range(len(input_string)):
@@ -17,7 +17,6 @@ def digit_counter(a):
             result_map[elem] = 1
         else:
             continue
+    return result_map
 
-    return result_map 
-
-print(digit_counter("q0w1e2r3t4y5z9w12"))
+print(digit_counter("a3b4v7j7"))

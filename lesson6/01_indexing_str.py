@@ -6,4 +6,8 @@ def inserting_ind_into_str(input_string):
         result += input_string[index] + str(index)
     return result
 
-print(inserting_ind_into_str("asdasdasd"))
+DATA = ["test string one", "aubps", "alskjdhfjashfkdjashfkljhaskdfjhkjasdhf",
+"aksdhkajsdhkjasdh","aksdjlkajsdlkjasdlkjas"]
+
+for i in DATA:
+    print(inserting_ind_into_str(i))

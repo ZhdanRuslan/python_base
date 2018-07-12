@@ -1,5 +1,3 @@
-import os
-
 def inserting_ind_into_str(input_string):
     if not input_string or type(input_string) != str:
         raise Exception

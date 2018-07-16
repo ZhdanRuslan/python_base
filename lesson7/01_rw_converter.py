@@ -4,8 +4,7 @@ def inserting_ind_into_str(input_string):
     if not input_string or type(input_string) != str:
         raise Exception
     if is_digit_present(input_string) == None:
-        print("String have some digits! Bye!")
-        raise ValueError
+        return None
     if input_string.startswith(" "):
         input_string = input_string.lstrip()
     elif input_string.endswith(" "):
@@ -28,8 +27,7 @@ def is_digit_present(input_string):
 
 result_str = ""
 
-with open(os.path.join("lesson7", "input.txt")) as input_file:
-    result_str += inserting_ind_into_str(input_file.read())
-
-with open(os.path.join("lesson7", "result.txt"), "w") as result_file:
-    result_file.write(result_str)
+with open(os.path.join("lesson7", "result.ind"), "w") as result_file:
+    with open(os.path.join("lesson7", "input.txt")) as input_file:
+        for line in input_file:
+            result_file.write(str(inserting_ind_into_str(line)))

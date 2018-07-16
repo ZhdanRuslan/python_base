@@ -1,3 +1,5 @@
+import re
+
 def inserting_ind_into_str(input_string):
     def digit_counter(a):
         result_map = {}
@@ -22,6 +24,4 @@ def inserting_ind_into_str(input_string):
 
 
 r =inserting_ind_into_str("a222222sd")
-
-for key in r:
-    print("{} - {}".format(key, r[key]))
+print(r)

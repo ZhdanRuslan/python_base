@@ -6,10 +6,13 @@ def inserting_ind_into_str(input_string):
         result += elem + str(index)
     return result
 
-str_with_dig = inserting_ind_into_str("demo test")
+str_with_dig = inserting_ind_into_str("demo0234234234234 test")
 
-res = re.findall("\d+", str_with_dig)
 print(str_with_dig)
+
+res = re.findall("\d", str_with_dig)
+
+print(res)
 
 for ind in range(len(res)):
     print("{}-{}".format(ind, res.count(str(ind))))

@@ -15,4 +15,4 @@ res = re.findall("\d+", str_with_dig)
 print(res)
 
 for ind in res:
-    print("{}-{}".format(ind, res.count(str(ind))))
+    print("{} - {}".format(ind, res.count(str(ind))))

@@ -1,9 +1,9 @@
 import os.path
 
 def inserting_ind_into_str(input_string):
+    input_string = input_string.strip()
     if have_some_digits(input_string):
         return None
-    input_string = input_string.strip()
     result = ""
     for index, elem in enumerate(input_string):
         result += elem + str(index)

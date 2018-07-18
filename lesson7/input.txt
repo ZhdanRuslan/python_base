@@ -1,3 +1,5 @@
-Yo bitches!
-How do you do?
-Demo string 4 digits
+test
+        tabtest
+d1gitstest
+   space   test
+newlinetest\n

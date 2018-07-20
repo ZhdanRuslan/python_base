@@ -1,10 +1,20 @@
 def favg(*varargs):
     result = []
-    [result.append(elem) if type(elem)==int else result.append(e) for elem in varargs for e in elem]
-    return result
+    
+    def flatten(nested):
+        try:
+            first, *rest = nested
+        except TypeError:
+            return [nested]
+        except ValueError:
+            return []
+        return flatten(first) + flatten(rest)
 
-#     high, low = [], []
-# _Nones = [high.append(x) if is_condition_true() else low.append(x) for x in sequences]
-                
-x = [1,2,3,4]
-print(favg(x,1,2,3,4,5,7))
+    result = flatten(varargs)
+    return sum(result)/len(result)
+
+
+print(favg([1,2,3]))
+print(favg(1, 2))
+print(favg(x for x in range(50)))
+print(favg([range(20)]))

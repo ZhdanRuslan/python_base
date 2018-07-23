@@ -12,13 +12,7 @@ class Book:
         return "[" + self.author_info + "] [" + self.author_name + "] [" + self.year + "] [" + self.genre + "] [" + str(self.Review) + "]"
 
     def __repr__(self):
-        return """class Book:
-    def __init__(self, author_info, author_name, year, genre):
-    super().__init__()
-    self.author_info = author_info
-    self.author_name = author_name
-    self.year = year
-    self.genre = genre"""
+        return  ("{}('{}' '{}' '{}' '{}' '{}')".format(self.__class__.__name__, self.author_info, self.author_name, self.year, self.genre, self.Review))
 
     def __eq__(self, other):
         if isinstance(other, self.__class__):

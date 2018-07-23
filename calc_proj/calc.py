@@ -51,10 +51,8 @@ def switch_operation(arg, a_var, b_var):
 
 def main():
     """Start point of a programm"""
-    action_var = ""
     while True:
         try:
-            action_var=""
             action_var = input('Input an action e.q. "* / + - or stop" : ')
             if action_var.lower() == "stop":
                 print("Bye!")

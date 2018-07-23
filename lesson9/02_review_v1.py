@@ -27,6 +27,14 @@ class Review:
     def __init__(self, description):
         self.description = description
 
+    def __str__(self):
+        return "[" + self.description + "]"
+        
+    def __repr__(self):
+        return  ("{}('{}')".format(self.__class__.__name__, self.description))
+    
+
+
 book1 = Book("Python book", "Luts", "2016", "CS")
 book2 = Book("Python book","Luts","2016","CS")
 print(book1)
@@ -35,3 +43,7 @@ book2.year = 2018
 print(book1 == book2)
 book3 = Book("Python book","Luts","2016","CS", "Good", "Great!")
 print(book3)
+review = Review("Best of the best!")
+print(review)
+book4 = Book("Algo", "Kormann", "1986", "science", review)
+print(book4)

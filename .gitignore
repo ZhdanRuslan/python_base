@@ -2,3 +2,5 @@
 .idea/
 tkinter
 this
+.pytest_cache
+calc_proj/__pycache__

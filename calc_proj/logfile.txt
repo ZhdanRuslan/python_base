@@ -55,3 +55,13 @@ INFO     [2018-07-23 13:19:35,874] 2 * 5 was called.
 INFO     [2018-07-23 13:19:35,875] 6 / 3 was called.
 INFO     [2018-07-23 13:19:35,876] Dev by 0 was occured.
 INFO     [2018-07-23 13:25:07,922] 2.0 * 2.0 was called.
+INFO     [2018-07-23 14:39:21,362] 2.0 * 2.0 was called.
+INFO     [2018-07-23 14:44:04,527] Invalid value!
+INFO     [2018-07-23 14:44:04,528] Invalid arithmetic operator in input line!
+INFO     [2018-07-23 14:50:10,247] 2.0 * 2.0 was called.
+INFO     [2018-07-23 14:50:14,456] 2.0 / 4.0 was called.
+INFO     [2018-07-23 14:51:04,001] Invalid value!
+INFO     [2018-07-23 14:51:04,001] Invalid arithmetic operator in input line!
+INFO     [2018-07-23 14:51:08,880] Invalid value!
+INFO     [2018-07-23 14:51:08,880] Invalid arithmetic operator in input line!
+INFO     [2018-07-23 14:51:11,615] 2.0 * 4.0 was called.

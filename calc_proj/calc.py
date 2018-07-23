@@ -36,21 +36,24 @@ def switch_operation(arg):
     else:
         logging.info("Invalid arithmetic operator in input line!")
         raise Exception
+def main():
+    action_var = ""
+    while True:
+        try:
+            action_var=""
+            action_var = input('Input an action e.q. "* / + - or stop" : ')
+            if action_var.lower() == "stop":
+                print("Bye!")
+                break
+            a_var = float(input('Input first operand: '))
+            b_var = float(input('Input second operand: '))
 
-action_var = ""
-while True:
-    try:
-        action_var=""
-        action_var = input('Input an action e.q. "* / + - or stop" : ')
-        if action_var.lower() == "stop":
-            print("Bye!")
-            break
-        a_var = float(input('Input first operand: '))
-        b_var = float(input('Input second operand: '))
+        except ValueError as e:
+            logging.info("Invalid value!")   
+        try:
+            print(switch_operation(action_var))
+        except Exception as e:
+            print("Somethings wrong!", e)
 
-    except ValueError as e:
-        logging.info("Invalid value!")   
-    try:
-        print(switch_operation(action_var))
-    except Exception as e:
-        print("Somethings wrong!", e)
+if __name__ == "__main__":
+    main()

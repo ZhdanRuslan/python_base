@@ -11,13 +11,7 @@ class Car:
         return "[" + self.model + "] [" + self.year + "] [" + self.price + "] [" + str(self.Additional) + "]"
 
     def __repr__(self):
-        return """class Car:
-    def __init__(self, model, year, price, *Additional):
-        super().__init__()
-        self.model = model
-        self.year = year
-        self.price = price
-        self.Additional = Additional"""
+        return  ("{}('{}' '{}' '{}' '{}')".format(self.__class__.__name__, self.model, self.year, self.price, self.Additional))
 
     def __eq__(self, other):
         if isinstance(other, self.__class__):
@@ -30,8 +24,15 @@ class Car:
 
 # -------------------------------------------------------
 class CarShowroom:
+
     def __init__(self, *cars):
         self.cars = list(cars)
+
+    def __str__(self):
+        return "[ " + self.__class__.__name__ + " ] [ " + str(self.cars) + " ]" 
+        
+    def __repr__(self):
+        return  ("{}('{}')".format(self.__class__.__name__, self.cars))
 
     def add_car(self, name):
         self.cars.append(name)
@@ -58,3 +59,4 @@ print("--------------------------------------")
 shop.sell(bmw)
 shop.show_cars()
 print("--------------------------------------")
+print(shop)

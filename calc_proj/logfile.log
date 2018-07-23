@@ -1,7 +1,48 @@
-INFO     [2018-07-22 10:56:08,155] 2.0 + 2.0 was called.
-INFO     [2018-07-22 10:56:11,806] Invalid arithmetic operator in input line!
-INFO     [2018-07-22 10:56:17,576] 2.0 - 2.0 was called.
-INFO     [2018-07-22 10:56:21,486] 2.0 * 2.0 was called.
-INFO     [2018-07-22 10:56:27,682] Invalid arithmetic operator in input line!
-INFO     [2018-07-22 10:56:31,865] 2.0 / 2.0 was called.
-INFO     [2018-07-22 10:56:37,785] Dev by 0 was occured.
+
+INFO     [2018-07-23 10:16:15,770] 5.0 / 2.0 was called.
+INFO     [2018-07-23 10:16:33,162] 5.0 * 5.0 was called.
+INFO     [2018-07-23 10:16:38,298] 5.0 - 2.0 was called.
+INFO     [2018-07-23 10:16:44,587] Dev by 0 was occured.
+INFO     [2018-07-23 10:17:02,274] Invalid value!
+INFO     [2018-07-23 10:17:02,274] Invalid arithmetic operator in input line!
+INFO     [2018-07-23 12:51:44,648] 2 + 3 was called.
+INFO     [2018-07-23 12:51:48,519] 2 + 3 was called.
+INFO     [2018-07-23 12:51:52,548] Invalid value!
+INFO     [2018-07-23 12:51:52,548] Invalid arithmetic operator in input line!
+INFO     [2018-07-23 12:51:55,795] Invalid value!
+INFO     [2018-07-23 12:51:55,795] Invalid arithmetic operator in input line!
+INFO     [2018-07-23 12:51:56,856] Invalid value!
+INFO     [2018-07-23 12:51:56,856] Invalid arithmetic operator in input line!
+INFO     [2018-07-23 12:52:00,485] 2.0 * 2.0 was called.
+INFO     [2018-07-23 12:52:10,509] 2 + 3 was called.
+INFO     [2018-07-23 12:52:15,111] 2 + 3 was called.
+INFO     [2018-07-23 12:52:49,023] 2 + 5 was called.
+INFO     [2018-07-23 12:53:18,315] 2 + 5 was called.
+INFO     [2018-07-23 12:55:13,493] 2 + 5 was called.
+INFO     [2018-07-23 12:55:44,789] 2 + 5 was called.
+INFO     [2018-07-23 12:56:13,205] 2 + 5 was called.
+INFO     [2018-07-23 12:57:16,387] 2 + 5 was called.
+INFO     [2018-07-23 12:57:42,451] 2 + 5 was called.
+INFO     [2018-07-23 12:57:49,332] 2 + 5 was called.
+INFO     [2018-07-23 12:58:11,097] 2 + 5 was called.
+INFO     [2018-07-23 12:58:11,098] 2 - 5 was called.
+INFO     [2018-07-23 12:58:11,099] 2 - 5 was called.
+INFO     [2018-07-23 12:58:11,115] 6 / 3 was called.
+INFO     [2018-07-23 12:58:52,579] 2 + 5 was called.
+INFO     [2018-07-23 12:58:52,580] 2 - 5 was called.
+INFO     [2018-07-23 12:58:52,581] 2 - 5 was called.
+INFO     [2018-07-23 12:58:52,597] 6 / 3 was called.
+INFO     [2018-07-23 12:58:57,300] 2 + 5 was called.
+INFO     [2018-07-23 12:58:57,301] 2 - 5 was called.
+INFO     [2018-07-23 12:58:57,302] 2 * 5 was called.
+INFO     [2018-07-23 12:58:57,302] 6 / 3 was called.
+INFO     [2018-07-23 12:59:10,233] 2 + 5 was called.
+INFO     [2018-07-23 12:59:10,234] 2 - 5 was called.
+INFO     [2018-07-23 12:59:10,234] 2 * 5 was called.
+INFO     [2018-07-23 12:59:10,235] 6 / 3 was called.
+INFO     [2018-07-23 12:59:10,236] Dev by 0 was occured.
+INFO     [2018-07-23 13:02:42,644] 2 + 5 was called.
+INFO     [2018-07-23 13:02:42,645] 2 - 5 was called.
+INFO     [2018-07-23 13:02:42,646] 2 * 5 was called.
+INFO     [2018-07-23 13:02:42,647] 6 / 3 was called.
+INFO     [2018-07-23 13:02:42,648] Dev by 0 was occured.

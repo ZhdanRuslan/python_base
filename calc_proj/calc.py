@@ -54,9 +54,9 @@ def main():
     while True:
         try:
             action_var = input('Input an action e.q. "* / + - or stop" : ')
-            if action_var.lower() == "stop":
+            if action_var.lower().strip() == "stop":
                 print("Bye!")
-                break
+                return
             a_var = float(input('Input first operand: '))
             b_var = float(input('Input second operand: '))
 

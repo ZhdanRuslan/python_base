@@ -46,3 +46,12 @@ INFO     [2018-07-23 13:02:42,645] 2 - 5 was called.
 INFO     [2018-07-23 13:02:42,646] 2 * 5 was called.
 INFO     [2018-07-23 13:02:42,647] 6 / 3 was called.
 INFO     [2018-07-23 13:02:42,648] Dev by 0 was occured.
+INFO     [2018-07-23 13:18:56,816] 2.0 * 6.0 was called.
+INFO     [2018-07-23 13:19:03,587] 5.0 / 2.0 was called.
+INFO     [2018-07-23 13:19:09,552] Dev by 0 was occured.
+INFO     [2018-07-23 13:19:35,872] 2 + 5 was called.
+INFO     [2018-07-23 13:19:35,873] 2 - 5 was called.
+INFO     [2018-07-23 13:19:35,874] 2 * 5 was called.
+INFO     [2018-07-23 13:19:35,875] 6 / 3 was called.
+INFO     [2018-07-23 13:19:35,876] Dev by 0 was occured.
+INFO     [2018-07-23 13:25:07,922] 2.0 * 2.0 was called.

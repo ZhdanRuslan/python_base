@@ -4,8 +4,6 @@ from functools import lru_cache
 
 logging.basicConfig(filename = path.join(path.dirname(__file__), "logfile.txt"),level=logging.INFO, format = u'%(levelname)-8s [%(asctime)s] %(message)s')
 
-print(__file__)
-
 @lru_cache(maxsize = 32)
 def add (a, b):
     """Return the sum of a and b"""
